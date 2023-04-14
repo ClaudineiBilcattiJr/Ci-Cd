@@ -37,7 +37,7 @@ service:
 
 # If cronjob true set enabled with false, but by default auto set to false
 ingress:
-  enabled: false
+  enabled: true
   annotations:
     # TO DEVELOPMENT USE:
     # kubernetes.io/ingress.class: alb
